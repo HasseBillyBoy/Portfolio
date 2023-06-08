@@ -351,7 +351,7 @@ blockquote {
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
+    transition: max-height 0.5s; padding 0.5s;
   }
 
   .accordion input[type="radio"]:checked + label + .content {
