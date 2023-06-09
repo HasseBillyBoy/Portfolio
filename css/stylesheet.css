@@ -228,6 +228,10 @@ blockquote {
   }
   */ 
 
+  header {
+    background-color: aliceblue;
+  }
+
   header h1 {
     font-family: 'Geologica';
     font-size: 40px;
