@@ -99,11 +99,11 @@ dt {
 }
 
 blockquote {
-  font-family: 'Nunito';
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -301,14 +301,37 @@ blockquote {
     box-shadow: none;
   }
 
-  .footerp {
-    font-size: 16px;
+  footer {
+    background-color: rgb(90, 86, 152);
+  }
+
+  .footercontainer {
+    max-width: 680px;
+    margin: auto;
     text-align: center;
   }
+
+  .footerp {
+    font-size: 16px;
+    color: aliceblue;
+  }
+
+  .button {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+  
 
   /*----- grids ----*/
 
   .grid_1-1 {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
