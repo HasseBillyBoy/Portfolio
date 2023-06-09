@@ -220,13 +220,6 @@ blockquote {
     background: #2e2d2b;
     color: #dcd9d5;
   }
-  
-/*  li {
-    list-style: none;
-    display: flex;
-    padding: 0 16px;
-  }
-  */ 
 
   header {
     background-color: aliceblue;
@@ -273,8 +266,114 @@ blockquote {
     font-size: 40px;
     font-weight: 900;
     font-family: 'Geologica', sans-serif;
-    }
+  }
 
+  #in-text-li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: none;
+  }
+
+  footer {
+    background-color: rgb(90, 86, 152);
+  }
+
+  .footercontainer {
+    max-width: 680px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .footerp {
+    font-size: 16px;
+    color: aliceblue;
+  }
+
+  .button {
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .yell {
+    font-size: 80px;
+  }
+
+    /* ------------ accordion til mobil ----------- */
+  /*----- https://www.youtube.com/watch?v=fSkhTd4rpDo -----*/
+
+  .accordion {
+    margin-left: -30px;
+    margin-right: 10px;
+  }
+
+  .accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+
+  .accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    font-size: 25px;
+    color: rgb(60, 55, 135);
+    cursor: pointer;
+  }
+
+  label::before {
+    content: '+';
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  .accordion .content {
+    color: 555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s; padding 0.5s;
+  }
+
+  .accordion input[type="radio"]:checked + label + .content {
+    max-height: 6000px;
+    padding: 10px 10px 20px; 
+  }
+
+  .accordion input[type="radio"]:checked + label::before {
+    content: '-';
+  }
+
+  /* --------------------- */
 
 
 /* ------ web herunder ------- */
@@ -318,7 +417,9 @@ blockquote {
 
   .button {
     list-style: none;
-    width: 100%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
     margin: 20px;
     padding: 10px;
     border-radius: 8px;
@@ -334,20 +435,18 @@ blockquote {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     gap: 1em;
   }
 
-  .col1 {
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
+  .flex {
+    display: flex;
+    justify-content: center;
   }
 
-  .col2 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-  }
 
-  /* ------------ accordion ----------- */
+
+  /* ------------ accordion til web ----------- */
   /*----- https://www.youtube.com/watch?v=fSkhTd4rpDo -----*/
 
   .accordion li {
