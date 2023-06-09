@@ -36,6 +36,10 @@ h3 {
   color:rgb(90, 86, 152);
 }
 
+/*--- https://www.learnui.design/blog/mobile-desktop-website-font-size-guidelines.html ---*/
+/*--- 18-20px er i dette tilfælde passende til både mobil og web, fordi det er et teksttungt site. 
+Folk skal ikke sidde og misse med øjnene i flere minutter fordi jeg har valgt lille font-size ---*/
+
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
