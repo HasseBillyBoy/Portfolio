@@ -453,6 +453,7 @@ blockquote {
   /*----- grids ----*/
 
   .grid_1-1 {
+    background-color: antiquewhite;
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -465,6 +466,9 @@ blockquote {
     justify-content: center;
   }
 
+  .cvbg {
+    background-color: bisque;
+  }
 
 
   /* ------------ accordion til web ----------- */
