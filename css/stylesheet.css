@@ -37,7 +37,7 @@ h3 {
 }
 
 p {
-  font-family: 'Nunito';
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   line-height: 150%;
   margin-bottom: 1em;
@@ -106,6 +106,11 @@ blockquote {
   margin-bottom: 1em;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.footerp {
+  font-size: 16px;
+  text-align: center;
 }
 
 /* -----MOBIL---- hamburger menu ------- */
@@ -273,20 +278,28 @@ blockquote {
 @media (min-width: 800px) {
   
   main {
-    max-width: 1200px;
+    max-width: 680px;
     margin: auto;
   }
 
-  .t3intro {
-    background-color: beige;
+  p {
+    max-width: 65ch;
   }
 
-  .t3researchogdataindsamling {
-    background-color: beige;
+  #in-text-li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: none;
   }
 
-  .t3designproces {
-    background-color: beige;
+  .footerp {
+    font-size: 16px;
+    text-align: center;
   }
 
   /*----- grids ----*/
@@ -305,10 +318,6 @@ blockquote {
   .col2 {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-  }
-
-  p {
-    max-width: 65ch;
   }
 
   /* ------------ accordion ----------- */
@@ -355,7 +364,7 @@ blockquote {
   }
 
   .accordion input[type="radio"]:checked + label + .content {
-    max-height: 4000px;
+    max-height: 6000px;
     padding: 10px 10px 20px; 
   }
 
