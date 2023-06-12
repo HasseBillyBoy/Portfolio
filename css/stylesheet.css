@@ -10,6 +10,10 @@
   src: url(../fonts/Nunito-Medium.ttf)
 }
 
+a:link {
+  color: purple;
+}
+
 
 /* ------- mobil herunder ------- */
 
@@ -301,10 +305,10 @@ blockquote {
 
   .button {
     list-style: none;
+    text-align: center;
     width: 200px;
     height: 200px;
-    margin: auto;
-    margin-top: 50px;
+    margin: 20px;
     padding: 10px;
     border-radius: 8px;
     background: #e3edf7;
@@ -323,6 +327,7 @@ blockquote {
 
   .yello {
     font-size: 30px;
+    margin-top: 60px;
   }
 
   .grid_1-1cv {
@@ -390,7 +395,7 @@ blockquote {
   }
 
   .accordion input[type="radio"]:checked + label + .content {
-    max-height: 6000px;
+    max-height: 7000px;
     padding: 10px 10px 20px; 
   }
 
@@ -461,9 +466,14 @@ blockquote {
     -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
   }
 
-  .buttonommigcontainer {
+  .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .yello {
+      font-size: 30px;
+      margin-top: 40px;
   }
   
 
@@ -551,7 +561,7 @@ blockquote {
 
   .accordion input[type="radio"]:checked + label + .content {
     max-height: 6000px;
-    padding: 10px 10px 20px; 
+    padding: 10px 10px 20px;
   }
 
   .accordion input[type="radio"]:checked + label::before {
