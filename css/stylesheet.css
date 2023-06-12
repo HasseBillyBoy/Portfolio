@@ -351,7 +351,7 @@ blockquote {
   .accordion li {
     list-style: none;
     width: 100%;
-    margin: 0px;
+    margin-bottom: 20px;
     padding: 10px;
     border-radius: 8px;
     background: #e3edf7;
