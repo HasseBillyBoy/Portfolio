@@ -1,6 +1,11 @@
 /* ------- import af fonts ------ */
 
 @font-face{
+  font-family: "Astrolab";
+  src: url(../fonts/Astrolab.ttf)
+}
+
+@font-face{
   font-family: "Geologica";
   src: url(../fonts/Geologica-Medium.ttf)
 }
