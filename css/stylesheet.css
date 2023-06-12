@@ -118,6 +118,7 @@ blockquote {
 }
 
 /* -----MOBIL---- hamburger menu ------- */
+/* ----------som set på: https://www.youtube.com/watch?v=OFKBep95lb4 -------- */
 
 * {
     margin: 0;
@@ -153,7 +154,7 @@ blockquote {
   .hamburger .bar,
   .hamburger:after,
   .hamburger:before {
-    /* after og before er psheudo elementer der kan lave flere elementer til den det givet element*/
+    /* after og before er pseudo-elementer der kan lave flere elementer til det givne element*/
     content: ""; /* content er none*/
     display: block;
     width: 100%;
