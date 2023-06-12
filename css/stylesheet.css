@@ -272,7 +272,7 @@ blockquote {
     font-family: 'Geologica', sans-serif;
   }
 
-  #in-text-li {
+  .accordion .in-text-li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;
     width: 100%;
@@ -324,6 +324,22 @@ blockquote {
     font-size: 30px;
   }
 
+  .grid_1-1cv {
+    max-width: 350px;
+    background-color: thistle;
+    margin-top: 100px;
+    margin: auto;
+    justify-content: center;
+    margin: auto;
+    gap: 1em;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.50);
+  }
+
+  .cvtekst {
+    line-height: 2;
+  }
+
     /* ------------ accordion til mobil ----------- */
   /*----- https://www.youtube.com/watch?v=fSkhTd4rpDo -----*/
 
@@ -364,12 +380,13 @@ blockquote {
   }
 
   .accordion .content {
-    color: 555;
+    color: #232323;
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s; padding 0.5s;
+    transition: max-height 0.5s, padding 0.5s;
+    
   }
 
   .accordion input[type="radio"]:checked + label + .content {
@@ -397,7 +414,7 @@ blockquote {
     max-width: 65ch;
   }
 
-  #in-text-li {
+  .accordion .in-text-li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;
     width: 100%;
@@ -459,6 +476,7 @@ blockquote {
   }
 
   .grid_1-1cv {
+    max-width: 680px;
     background-color: thistle;
     margin-top: 100px;
     display: grid;
@@ -505,12 +523,12 @@ blockquote {
   }
 
   .accordion .content {
-    color: 555;
+    color: #232323;
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s; padding 0.5s;
+    transition: max-height 0.5s;
   }
 
   .accordion input[type="radio"]:checked + label + .content {
