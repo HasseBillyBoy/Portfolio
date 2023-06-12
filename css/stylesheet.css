@@ -399,6 +399,14 @@ blockquote {
 
   /* --------------------- */
 
+  .webvideo {
+    display: none;
+  }
+
+  .mobilvideo {
+    display: flex;
+  }
+
 
 /* ------ web herunder ------- */
 
@@ -484,6 +492,14 @@ blockquote {
     gap: 1em;
     border-radius: 8px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.50);
+  }
+
+  .mobilvideo {
+    display: none;
+  }
+
+  .webvideo {
+    display: flex;
   }
 
 
