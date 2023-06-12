@@ -398,7 +398,7 @@ blockquote {
     content: '-';
   }
 
-  /* --------------------- */
+  /* --------- videoer; vælg mobil, ud med web ----------*/
 
   .webvideo {
     display: none;
@@ -494,6 +494,8 @@ blockquote {
     border-radius: 8px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.50);
   }
+
+  /* --------- videoer; vælg web, ud med mobil ----------*/
 
   .mobilvideo {
     display: none;
